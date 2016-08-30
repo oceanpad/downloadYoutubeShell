@@ -32,3 +32,7 @@ $ sudo pip install ntfy
   Like this:
   
   ![demo](demo.png)
+
+	What notification looks like:
+
+  ![notif](notif.png)
