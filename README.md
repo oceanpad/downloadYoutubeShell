@@ -1,5 +1,5 @@
 ## System Requirement
-* Install youtube-dl 
+### Install youtube-dl 
 
  [https://github.com/rg3/youtube-dl](https://github.com/rg3/youtube-dl)
 
@@ -13,8 +13,8 @@ If you do not have curl, you can alternatively use a recent wget:
     sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
     sudo chmod a+rx /usr/local/bin/youtube-dl
 
-* Install Python [ntfy], Notification library.
-(need python and [pip](https://pip.pypa.io/en/stable/installing/))[https://github.com/dschep/ntfy](https://github.com/dschep/ntfy)
+### Install Python [ntfy](https://github.com/dschep/ntfy), A linux notification library.
+(need [python](https://www.python.org/) and [pip](https://pip.pypa.io/en/stable/installing/))
 ```
 $ sudo pip install ntfy
 ```
