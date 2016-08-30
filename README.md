@@ -28,11 +28,11 @@ $ sudo pip install ntfy
   $ sh download.sh
   ```
   
-  This will download all your url.txt's vedio to your current folder.
-  Like this:
+This will download all your url.txt's vedio to your current folder.
+Like this:
   
   ![demo](demo.png)
 
-	What notification looks like:
+What notification looks like:
 
   ![notif](notif.png)
