@@ -12,6 +12,12 @@ If you do not have curl, you can alternatively use a recent wget:
 
     sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
     sudo chmod a+rx /usr/local/bin/youtube-dl
+
+* Install Python [ntfy], Notification library.
+(need python and [pip](https://pip.pypa.io/en/stable/installing/))[https://github.com/dschep/ntfy](https://github.com/dschep/ntfy)
+```
+$ sudo pip install ntfy
+```
     
 
 ## Copy Youtube Urls
