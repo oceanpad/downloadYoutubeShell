@@ -3,10 +3,10 @@ filename="url.txt"
 while read -r line
 do
     name="$line"
-		if youtube-dl -o '/home/hiayang/share/%(title)s.%(ext)s' $name; then
-				ntfy send "download succeed"
-		else
-				ntfy send "download failed"
-		fi
+    if youtube-dl -o --no-playlist '/media/sf_share/%(title)s.%(ext)s' $name; then
+      echo "download succeed"
+    else
+      echo "download failed"
+    fi
 
 done < "$filename"

@@ -13,13 +13,6 @@ If you do not have curl, you can alternatively use a recent wget:
     sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
     sudo chmod a+rx /usr/local/bin/youtube-dl
 
-### Install Python [ntfy](https://github.com/dschep/ntfy), A linux notification library.
-(need [python](https://www.python.org/) and [pip](https://pip.pypa.io/en/stable/installing/))
-```
-$ sudo pip install ntfy
-```
-    
-
 ## Copy Youtube Urls
   Open an youtube video which you want to download, copy the url to `url.txt` file. If you want to download mutil vedios,  copy mutil urls to `url.txt`, wrap every url to next line.
 
